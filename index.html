@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Universe Hub</title>
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="mt-12">
+    <div class="container text-center">
+      <h1 class="text-3xl font-bold text-black mb-4">AI Universe Hub</h1>
+      <a href="#/" class="btn btn-primary">Sort By Date</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Card Section -->
+    <section class="my-12">
+      <div class="container">
+        <!-- Spinner Section -->
+        <section id="spinner" class="text-center py-12 text-red-500 hidden">
+          <span class="loading loading-spinner loading-lg"></span>
+        </section>
+        <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between gap-8"></div>
+        <div id="see-more" class="text-center mt-8 hidden">
+          <a href="#/" class="btn btn-primary">See More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Section -->
+  <section id="modal-section"></section>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
